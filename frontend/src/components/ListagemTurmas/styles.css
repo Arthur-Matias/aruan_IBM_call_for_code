@@ -1,0 +1,17 @@
+.container{
+    padding: 20px;
+    grid-area: ListaTurmas;
+    margin-bottom: 70px;
+    overflow-Y: scroll;
+}
+
+.container > ul{
+    list-style-type: none;
+}
+
+.item-container{
+    padding: 10px 20px;
+    background-color: var(--soft-blue);
+    margin: 10px;
+    border-radius: 4px;
+}
